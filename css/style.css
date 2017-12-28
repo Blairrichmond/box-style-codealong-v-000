@@ -141,7 +141,7 @@ header {
   border-left: 1px solid #ccc;
 }
 
-#navbar a {
+#navbar nav a {
   display: inline-block;;
   width: 16.6666667%;
   margin: 0;
@@ -150,6 +150,12 @@ header {
   color: black;
   text-align: center;
   border-right: 1px solid #ccc;
+  font: 1em "Trebuchet MS", arial, sans-serif;
+}
+
+#navbar nav a.selected {
+  background: #333;
+  color: white;
 }
 
 /*////////// LOGO //////////*/
