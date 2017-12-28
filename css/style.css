@@ -166,7 +166,7 @@ header {
 
 #logo {
   padding:  84px 0 0;
-  
+
 }
 
 #logo h1 {
@@ -189,7 +189,9 @@ section {
 
 /*////////// DETAILS //////////*/
 
-
+#details {
+  border-top: 1px solid white;
+}
 
 #details div {
   height: 221px;
